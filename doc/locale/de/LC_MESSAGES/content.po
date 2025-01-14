@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-16 10:16+0200\n"
-"PO-Revision-Date: 2025-01-13 15:21+0000\n"
+"PO-Revision-Date: 2025-01-14 10:22+0000\n"
 "Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
 "Language-Team: German <http://translate.otobo.org/projects/"
 "manual-markticketseenunseen/master/de/>\n"
@@ -32,6 +32,7 @@ msgstr "Beschreibung"
 #: ../../content/index.rst:20
 msgid "Mark whole tickets or single articles as unseen or seen."
 msgstr ""
+"Markieren Sie ganze Tickets oder einzelne Artikel als ungesehen oder gesehen."
 
 #: ../../content/index.rst:23
 msgid "System requirements"
@@ -71,67 +72,75 @@ msgstr "Konfigurationsreferenz"
 
 #: ../../content/index.rst:47
 msgid "Core::OTOBO::MarkTicketSeenUnseen"
-msgstr ""
+msgstr "Core::OTOBO::MarkTicketSeenUnseen"
 
 #: ../../content/index.rst:50
 msgid "MarkTicketSeenRedirectDefaultURL"
-msgstr ""
+msgstr "MarkTicketSeenRedirectDefaultURL"
 
 #: ../../content/index.rst:51
 msgid "Defines the redirect URL for setting a ticket article to 'seen'."
 msgstr ""
+"Definiert die Umleitungs-URL für das Setzen eines Ticketartikels auf "
+"\"gesehen\"."
 
 #: ../../content/index.rst:54
 msgid "MarkTicketUnseenRedirectDefaultURL"
-msgstr ""
+msgstr "MarkTicketUnseenRedirectDefaultURL"
 
 #: ../../content/index.rst:55
 msgid "Defines the redirect URL for setting a ticket article to 'unseen'."
 msgstr ""
+"Definiert die Umleitungs-URL für das Setzen eines Ticketartikels auf "
+"\"ungesehen\"."
 
 #: ../../content/index.rst:58
 msgid "Frontend::Agent::ModuleRegistration"
-msgstr ""
+msgstr "Frontend::Agent::ModuleRegistration"
 
 #: ../../content/index.rst:61
 msgid "Frontend::Module###AgentTicketMarkSeenUnseen"
-msgstr ""
+msgstr "Frontend::Module###AgentTicketMarkSeenUnseen"
 
 #: ../../content/index.rst:62
 msgid "Frontend module registration for the agent interface."
-msgstr ""
+msgstr "Registrierung des Frontend-Moduls für die Agentenoberfläche."
 
 #: ../../content/index.rst:65
 msgid "Frontend::Agent::TicketOverview::MenuModule"
-msgstr ""
+msgstr "Frontend::Agent::TicketOverview::MenuModule"
 
 #: ../../content/index.rst:68
 msgid "Ticket::Frontend::PreMenuModule###442-MarkTicketUnseen"
-msgstr ""
+msgstr "Ticket::Frontend::PreMenuModule###442-MarkTicketUnseen"
 
 #: ../../content/index.rst:69
 msgid ""
 "Registers a link in the ticket menu of ticket overviews to mark all "
 "articles of the ticket as unseen."
 msgstr ""
+"Registriert einen Link im Ticketmenü von Ticketübersichten, um alle Artikel "
+"des Tickets als ungesehen zu markieren."
 
 #: ../../content/index.rst:72
 msgid "Ticket::Frontend::PreMenuModule###442-MarkTicketSeen"
-msgstr ""
+msgstr "Ticket::Frontend::PreMenuModule###442-MarkTicketSeen"
 
 #: ../../content/index.rst:73
 msgid ""
 "Registers a link in the ticket menu of ticket overviews to mark all "
 "articles of the ticket as seen."
 msgstr ""
+"Registriert einen Link im Ticketmenü von Ticketübersichten, um alle Artikel "
+"des Tickets als gesehen zu markieren."
 
 #: ../../content/index.rst:76
 msgid "Frontend::Agent::View::Preferences"
-msgstr ""
+msgstr "Frontend::Agent::View::Preferences"
 
 #: ../../content/index.rst:79
 msgid "PreferencesGroups###MarkTicketUnseenRedirectURL"
-msgstr ""
+msgstr "PreferencesGroups###MarkTicketUnseenRedirectURL"
 
 #: ../../content/index.rst:80
 msgid ""
@@ -139,10 +148,14 @@ msgid ""
 "default redirect URL from SysConfig 'MarkTicketUnseenRedirectDefaultURL' "
 "is used if no selection is made by the agent."
 msgstr ""
+"Definiert die Konfigurationsparameter, die in der Einstellungsansicht "
+"verfügbar sind. Die Standardumleitungs-URL aus der SysConfig "
+"'MarkTicketUnseenRedirectDefaultURL' wird verwendet, wenn der Agent keine "
+"Auswahl trifft."
 
 #: ../../content/index.rst:83
 msgid "PreferencesGroups###MarkTicketSeenRedirectURL"
-msgstr ""
+msgstr "PreferencesGroups###MarkTicketSeenRedirectURL"
 
 #: ../../content/index.rst:84
 msgid ""
@@ -150,40 +163,49 @@ msgid ""
 "default redirect URL from SysConfig 'MarkTicketSeenRedirectDefaultURL' is"
 " used if no selection is made by the agent."
 msgstr ""
+"Definiert die Konfigurationsparameter, die in der Einstellungsansicht "
+"verfügbar sind. Die Standardumleitungs-URL aus der SysConfig "
+"'MarkTicketSeenRedirectDefaultURL' wird verwendet, wenn der Agent keine "
+"Auswahl trifft."
 
 #: ../../content/index.rst:87
 msgid "Frontend::Agent::View::TicketBulk"
-msgstr ""
+msgstr "Frontend::Agent::View::TicketBulk"
 
 #: ../../content/index.rst:90
 msgid "Ticket::Frontend::BulkModule###001-MarkTicketSeenUnseen"
-msgstr ""
+msgstr "Ticket::Frontend::BulkModule###001-MarkTicketSeenUnseen"
 
 #: ../../content/index.rst:91
 msgid ""
 "This configuration registers a bulk module to mark tickets as seen or "
 "unseen via bulk action."
 msgstr ""
+"Diese Konfiguration registriert ein Modul, um Tickets per Sammelaktion als "
+"gesehen oder ungesehen zu markieren."
 
 #: ../../content/index.rst:94
 msgid "Frontend::Agent::View::TicketZoom::MenuModule"
-msgstr ""
+msgstr "Frontend::Agent::View::TicketZoom::MenuModule"
 
 #: ../../content/index.rst:97
 msgid "Ticket::Frontend::MenuModule###001-MarkTicketUnseen"
-msgstr ""
+msgstr "Ticket::Frontend::MenuModule###001-MarkTicketUnseen"
 
 #: ../../content/index.rst:98
 msgid "Registers a link in the ticket menu to mark a ticket as unseen."
 msgstr ""
+"Registriert einen Link im Ticketmenü, um ein Ticket als ungesehen zu "
+"markieren."
 
 #: ../../content/index.rst:101
 msgid "Ticket::Frontend::MenuModule###001-MarkTicketSeen"
-msgstr ""
+msgstr "Ticket::Frontend::MenuModule###001-MarkTicketSeen"
 
 #: ../../content/index.rst:102
 msgid "Registers a link in the ticket menu to mark a ticket as seen."
 msgstr ""
+"Registriert einen Link im Ticketmenü, um ein Ticket als gesehen zu markieren."
 
 #: ../../content/index.rst:105
 msgid "About"
