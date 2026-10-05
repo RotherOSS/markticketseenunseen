@@ -8,233 +8,238 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-16 10:16+0200\n"
+"POT-Creation-Date: 2026-07-14 11:00+0000\n"
 "PO-Revision-Date: 2025-01-14 10:22+0000\n"
 "Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
-"Language-Team: German <http://translate.otobo.org/projects/"
-"manual-markticketseenunseen/master/de/>\n"
+"Language-Team: German <http://translate.otobo.org/projects/manual-"
+"markticketseenunseen/master/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.8.4\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: ../../content/index.rst:16
-msgid "Sacrifice to Sphinx"
-msgstr "Sacrifice to Sphinx"
+#: ../content/index.rst:5
+#, fuzzy
+#| msgid "Contact"
+msgid "Contents"
+msgstr "Kontakt"
 
-#: ../../content/index.rst:19
+#: ../content/index.rst:10
 msgid "Description"
 msgstr "Beschreibung"
 
-#: ../../content/index.rst:20
+#: ../content/index.rst:11
 msgid "Mark whole tickets or single articles as unseen or seen."
 msgstr ""
 "Markieren Sie ganze Tickets oder einzelne Artikel als ungesehen oder gesehen."
 
-#: ../../content/index.rst:23
+#: ../content/index.rst:14
 msgid "System requirements"
 msgstr "Systemanforderungen"
 
-#: ../../content/index.rst:26
+#: ../content/index.rst:17
 msgid "Framework"
 msgstr "Framework"
 
-#: ../../content/index.rst:27
+#: ../content/index.rst:18
 msgid "OTOBO 10.1.x"
 msgstr "OTOBO 10.1.x"
 
-#: ../../content/index.rst:30
+#: ../content/index.rst:21
 msgid "Packages"
 msgstr "Pakete"
 
-#: ../../content/index.rst:31 ../../content/index.rst:35
+#: ../content/index.rst:22 ../content/index.rst:26
 msgid "\\-"
 msgstr "\\-"
 
-#: ../../content/index.rst:34
+#: ../content/index.rst:25
 msgid "Third-party software"
 msgstr "Drittanbieter-Software"
 
-#: ../../content/index.rst:38
+#: ../content/index.rst:29
 msgid "Usage"
 msgstr "Verwendung"
 
-#: ../../content/index.rst:41
+#: ../content/index.rst:32
 msgid "Setup"
 msgstr "Einrichtung"
 
-#: ../../content/index.rst:44
+#: ../content/index.rst:35
 msgid "Configuration Reference"
 msgstr "Konfigurationsreferenz"
 
-#: ../../content/index.rst:47
+#: ../content/index.rst:38
 msgid "Core::OTOBO::MarkTicketSeenUnseen"
 msgstr "Core::OTOBO::MarkTicketSeenUnseen"
 
-#: ../../content/index.rst:50
+#: ../content/index.rst:41
 msgid "MarkTicketSeenRedirectDefaultURL"
 msgstr "MarkTicketSeenRedirectDefaultURL"
 
-#: ../../content/index.rst:51
+#: ../content/index.rst:42
 msgid "Defines the redirect URL for setting a ticket article to 'seen'."
 msgstr ""
 "Definiert die Umleitungs-URL für das Setzen eines Ticketartikels auf "
 "\"gesehen\"."
 
-#: ../../content/index.rst:54
+#: ../content/index.rst:45
 msgid "MarkTicketUnseenRedirectDefaultURL"
 msgstr "MarkTicketUnseenRedirectDefaultURL"
 
-#: ../../content/index.rst:55
+#: ../content/index.rst:46
 msgid "Defines the redirect URL for setting a ticket article to 'unseen'."
 msgstr ""
 "Definiert die Umleitungs-URL für das Setzen eines Ticketartikels auf "
 "\"ungesehen\"."
 
-#: ../../content/index.rst:58
+#: ../content/index.rst:49
 msgid "Frontend::Agent::ModuleRegistration"
 msgstr "Frontend::Agent::ModuleRegistration"
 
-#: ../../content/index.rst:61
+#: ../content/index.rst:52
 msgid "Frontend::Module###AgentTicketMarkSeenUnseen"
 msgstr "Frontend::Module###AgentTicketMarkSeenUnseen"
 
-#: ../../content/index.rst:62
+#: ../content/index.rst:53
 msgid "Frontend module registration for the agent interface."
 msgstr "Registrierung des Frontend-Moduls für die Agentenoberfläche."
 
-#: ../../content/index.rst:65
+#: ../content/index.rst:56
 msgid "Frontend::Agent::TicketOverview::MenuModule"
 msgstr "Frontend::Agent::TicketOverview::MenuModule"
 
-#: ../../content/index.rst:68
+#: ../content/index.rst:59
 msgid "Ticket::Frontend::PreMenuModule###442-MarkTicketUnseen"
 msgstr "Ticket::Frontend::PreMenuModule###442-MarkTicketUnseen"
 
-#: ../../content/index.rst:69
+#: ../content/index.rst:60
 msgid ""
-"Registers a link in the ticket menu of ticket overviews to mark all "
-"articles of the ticket as unseen."
+"Registers a link in the ticket menu of ticket overviews to mark all articles "
+"of the ticket as unseen."
 msgstr ""
 "Registriert einen Link im Ticketmenü von Ticketübersichten, um alle Artikel "
 "des Tickets als ungesehen zu markieren."
 
-#: ../../content/index.rst:72
+#: ../content/index.rst:63
 msgid "Ticket::Frontend::PreMenuModule###442-MarkTicketSeen"
 msgstr "Ticket::Frontend::PreMenuModule###442-MarkTicketSeen"
 
-#: ../../content/index.rst:73
+#: ../content/index.rst:64
 msgid ""
-"Registers a link in the ticket menu of ticket overviews to mark all "
-"articles of the ticket as seen."
+"Registers a link in the ticket menu of ticket overviews to mark all articles "
+"of the ticket as seen."
 msgstr ""
 "Registriert einen Link im Ticketmenü von Ticketübersichten, um alle Artikel "
 "des Tickets als gesehen zu markieren."
 
-#: ../../content/index.rst:76
+#: ../content/index.rst:67
 msgid "Frontend::Agent::View::Preferences"
 msgstr "Frontend::Agent::View::Preferences"
 
-#: ../../content/index.rst:79
+#: ../content/index.rst:70
 msgid "PreferencesGroups###MarkTicketUnseenRedirectURL"
 msgstr "PreferencesGroups###MarkTicketUnseenRedirectURL"
 
-#: ../../content/index.rst:80
+#: ../content/index.rst:71
 msgid ""
-"Defines the config parameters available in the preferences view. The "
-"default redirect URL from SysConfig 'MarkTicketUnseenRedirectDefaultURL' "
-"is used if no selection is made by the agent."
+"Defines the config parameters available in the preferences view. The default "
+"redirect URL from SysConfig 'MarkTicketUnseenRedirectDefaultURL' is used if "
+"no selection is made by the agent."
 msgstr ""
 "Definiert die Konfigurationsparameter, die in der Einstellungsansicht "
 "verfügbar sind. Die Standardumleitungs-URL aus der SysConfig "
 "'MarkTicketUnseenRedirectDefaultURL' wird verwendet, wenn der Agent keine "
 "Auswahl trifft."
 
-#: ../../content/index.rst:83
+#: ../content/index.rst:74
 msgid "PreferencesGroups###MarkTicketSeenRedirectURL"
 msgstr "PreferencesGroups###MarkTicketSeenRedirectURL"
 
-#: ../../content/index.rst:84
+#: ../content/index.rst:75
 msgid ""
-"Defines the config parameters available in the preferences view. The "
-"default redirect URL from SysConfig 'MarkTicketSeenRedirectDefaultURL' is"
-" used if no selection is made by the agent."
+"Defines the config parameters available in the preferences view. The default "
+"redirect URL from SysConfig 'MarkTicketSeenRedirectDefaultURL' is used if no "
+"selection is made by the agent."
 msgstr ""
 "Definiert die Konfigurationsparameter, die in der Einstellungsansicht "
 "verfügbar sind. Die Standardumleitungs-URL aus der SysConfig "
 "'MarkTicketSeenRedirectDefaultURL' wird verwendet, wenn der Agent keine "
 "Auswahl trifft."
 
-#: ../../content/index.rst:87
+#: ../content/index.rst:78
 msgid "Frontend::Agent::View::TicketBulk"
 msgstr "Frontend::Agent::View::TicketBulk"
 
-#: ../../content/index.rst:90
+#: ../content/index.rst:81
 msgid "Ticket::Frontend::BulkModule###001-MarkTicketSeenUnseen"
 msgstr "Ticket::Frontend::BulkModule###001-MarkTicketSeenUnseen"
 
-#: ../../content/index.rst:91
+#: ../content/index.rst:82
 msgid ""
-"This configuration registers a bulk module to mark tickets as seen or "
-"unseen via bulk action."
+"This configuration registers a bulk module to mark tickets as seen or unseen "
+"via bulk action."
 msgstr ""
 "Diese Konfiguration registriert ein Modul, um Tickets per Sammelaktion als "
 "gesehen oder ungesehen zu markieren."
 
-#: ../../content/index.rst:94
+#: ../content/index.rst:85
 msgid "Frontend::Agent::View::TicketZoom::MenuModule"
 msgstr "Frontend::Agent::View::TicketZoom::MenuModule"
 
-#: ../../content/index.rst:97
+#: ../content/index.rst:88
 msgid "Ticket::Frontend::MenuModule###001-MarkTicketUnseen"
 msgstr "Ticket::Frontend::MenuModule###001-MarkTicketUnseen"
 
-#: ../../content/index.rst:98
+#: ../content/index.rst:89
 msgid "Registers a link in the ticket menu to mark a ticket as unseen."
 msgstr ""
 "Registriert einen Link im Ticketmenü, um ein Ticket als ungesehen zu "
 "markieren."
 
-#: ../../content/index.rst:101
+#: ../content/index.rst:92
 msgid "Ticket::Frontend::MenuModule###001-MarkTicketSeen"
 msgstr "Ticket::Frontend::MenuModule###001-MarkTicketSeen"
 
-#: ../../content/index.rst:102
+#: ../content/index.rst:93
 msgid "Registers a link in the ticket menu to mark a ticket as seen."
 msgstr ""
 "Registriert einen Link im Ticketmenü, um ein Ticket als gesehen zu markieren."
 
-#: ../../content/index.rst:105
+#: ../content/index.rst:96
 msgid "About"
 msgstr "Über"
 
-#: ../../content/index.rst:108
+#: ../content/index.rst:99
 msgid "Contact"
 msgstr "Kontakt"
 
-#: ../../content/index.rst:109
+#: ../content/index.rst:100
 msgid "Rother OSS GmbH"
 msgstr "Rother OSS GmbH"
 
-#: ../../content/index.rst:110
+#: ../content/index.rst:101
 msgid "Email: hello@otobo.de"
 msgstr "E-Mail: hello@otobo.de"
 
-#: ../../content/index.rst:111
+#: ../content/index.rst:102
 msgid "Web: https://otobo.de"
 msgstr "Web: https://otobo.de"
 
-#: ../../content/index.rst:114
+#: ../content/index.rst:105
 msgid "Version"
 msgstr "Version"
 
-#: ../../content/index.rst:115
+#: ../content/index.rst:106
 msgid ""
 "Author: |doc-vendor| / Version: |doc-version| / Date of release: |doc-"
 "datestamp|"
 msgstr ""
-"Autor: |doc-vendor| / Version: |doc-version| / Datum der Veröffentlichung: "
-"|doc-datestamp|"
+"Autor: |doc-vendor| / Version: |doc-version| / Datum der Veröffentlichung: |"
+"doc-datestamp|"
+
+#~ msgid "Sacrifice to Sphinx"
+#~ msgstr "Sacrifice to Sphinx"
