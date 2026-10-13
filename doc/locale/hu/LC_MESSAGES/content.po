@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-14 11:00+0000\n"
-"PO-Revision-Date: 2026-10-13 09:41+0000\n"
+"PO-Revision-Date: 2026-10-13 21:41+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <http://translate.otobo.org/projects/otobo-10-1/"
 "addons/manuals/markticketseenunseen/hu/>\n"
@@ -32,6 +32,8 @@ msgstr "Leírás"
 #: ../content/index.rst:11
 msgid "Mark whole tickets or single articles as unseen or seen."
 msgstr ""
+"Teljes jegyek vagy önálló bejegyzések megjelölése olvasatlanként vagy "
+"olvasottként."
 
 #: ../content/index.rst:14
 msgid "System requirements"
@@ -71,23 +73,27 @@ msgstr "Beállítások hivatkozása"
 
 #: ../content/index.rst:38
 msgid "Core::OTOBO::MarkTicketSeenUnseen"
-msgstr ""
+msgstr "Core::OTOBO::MarkTicketSeenUnseen"
 
 #: ../content/index.rst:41
 msgid "MarkTicketSeenRedirectDefaultURL"
-msgstr ""
+msgstr "MarkTicketSeenRedirectDefaultURL"
 
 #: ../content/index.rst:42
 msgid "Defines the redirect URL for setting a ticket article to 'seen'."
 msgstr ""
+"Meghatározza az átirányítási URL-t a jegy bejegyzésének „olvasott” állapotra "
+"állításához."
 
 #: ../content/index.rst:45
 msgid "MarkTicketUnseenRedirectDefaultURL"
-msgstr ""
+msgstr "MarkTicketUnseenRedirectDefaultURL"
 
 #: ../content/index.rst:46
 msgid "Defines the redirect URL for setting a ticket article to 'unseen'."
 msgstr ""
+"Meghatározza az átirányítási URL-t a jegy bejegyzésének „olvasatlan” "
+"állapotra állításához."
 
 #: ../content/index.rst:49
 msgid "Frontend::Agent::ModuleRegistration"
@@ -95,7 +101,7 @@ msgstr "Frontend::Agent::ModuleRegistration"
 
 #: ../content/index.rst:52
 msgid "Frontend::Module###AgentTicketMarkSeenUnseen"
-msgstr ""
+msgstr "Frontend::Module###AgentTicketMarkSeenUnseen"
 
 #: ../content/index.rst:53
 msgid "Frontend module registration for the agent interface."
@@ -103,35 +109,39 @@ msgstr "Előtétprogram-modul regisztráció az ügyintézői felülethez."
 
 #: ../content/index.rst:56
 msgid "Frontend::Agent::TicketOverview::MenuModule"
-msgstr ""
+msgstr "Frontend::Agent::TicketOverview::MenuModule"
 
 #: ../content/index.rst:59
 msgid "Ticket::Frontend::PreMenuModule###442-MarkTicketUnseen"
-msgstr ""
+msgstr "Ticket::Frontend::PreMenuModule###442-MarkTicketUnseen"
 
 #: ../content/index.rst:60
 msgid ""
 "Registers a link in the ticket menu of ticket overviews to mark all articles "
 "of the ticket as unseen."
 msgstr ""
+"Egy hivatkozást regisztrál a jegyáttekintők jegymenüben a jegy összes "
+"bejegyzésének olvasatlanként való megjelöléséhez."
 
 #: ../content/index.rst:63
 msgid "Ticket::Frontend::PreMenuModule###442-MarkTicketSeen"
-msgstr ""
+msgstr "Ticket::Frontend::PreMenuModule###442-MarkTicketSeen"
 
 #: ../content/index.rst:64
 msgid ""
 "Registers a link in the ticket menu of ticket overviews to mark all articles "
 "of the ticket as seen."
 msgstr ""
+"Egy hivatkozást regisztrál a jegyáttekintők jegymenüben a jegy összes "
+"bejegyzésének olvasottként való megjelöléséhez."
 
 #: ../content/index.rst:67
 msgid "Frontend::Agent::View::Preferences"
-msgstr ""
+msgstr "Frontend::Agent::View::Preferences"
 
 #: ../content/index.rst:70
 msgid "PreferencesGroups###MarkTicketUnseenRedirectURL"
-msgstr ""
+msgstr "PreferencesGroups###MarkTicketUnseenRedirectURL"
 
 #: ../content/index.rst:71
 msgid ""
@@ -139,10 +149,14 @@ msgid ""
 "redirect URL from SysConfig 'MarkTicketUnseenRedirectDefaultURL' is used if "
 "no selection is made by the agent."
 msgstr ""
+"Meghatározza a beállítások nézetben elérhető beállítási paramétereket. A „"
+"MarkTicketUnseenRedirectDefaultURL” rendszerbeállításból származó "
+"alapértelmezett átirányítási URL lesz használva, ha az ügyintéző nem választ "
+"ki semmit."
 
 #: ../content/index.rst:74
 msgid "PreferencesGroups###MarkTicketSeenRedirectURL"
-msgstr ""
+msgstr "PreferencesGroups###MarkTicketSeenRedirectURL"
 
 #: ../content/index.rst:75
 msgid ""
@@ -150,20 +164,26 @@ msgid ""
 "redirect URL from SysConfig 'MarkTicketSeenRedirectDefaultURL' is used if no "
 "selection is made by the agent."
 msgstr ""
+"Meghatározza a beállítások nézetben elérhető beállítási paramétereket. A „"
+"MarkTicketSeenRedirectDefaultURL” rendszerbeállításból származó "
+"alapértelmezett átirányítási URL lesz használva, ha az ügyintéző nem választ "
+"ki semmit."
 
 #: ../content/index.rst:78
 msgid "Frontend::Agent::View::TicketBulk"
-msgstr ""
+msgstr "Frontend::Agent::View::TicketBulk"
 
 #: ../content/index.rst:81
 msgid "Ticket::Frontend::BulkModule###001-MarkTicketSeenUnseen"
-msgstr ""
+msgstr "Ticket::Frontend::BulkModule###001-MarkTicketSeenUnseen"
 
 #: ../content/index.rst:82
 msgid ""
 "This configuration registers a bulk module to mark tickets as seen or unseen "
 "via bulk action."
 msgstr ""
+"Ez a beállítás egy tömeges modult regisztrál a jegyek olvasottként vagy "
+"olvasatlanként való megjelöléséhez a tömeges műveleten keresztül."
 
 #: ../content/index.rst:85
 msgid "Frontend::Agent::View::TicketZoom::MenuModule"
@@ -171,19 +191,23 @@ msgstr "Frontend::Agent::View::TicketZoom::MenuModule"
 
 #: ../content/index.rst:88
 msgid "Ticket::Frontend::MenuModule###001-MarkTicketUnseen"
-msgstr ""
+msgstr "Ticket::Frontend::MenuModule###001-MarkTicketUnseen"
 
 #: ../content/index.rst:89
 msgid "Registers a link in the ticket menu to mark a ticket as unseen."
 msgstr ""
+"Egy hivatkozást regisztrál a jegymenüben egy jegy olvasatlanként való "
+"megjelöléséhez."
 
 #: ../content/index.rst:92
 msgid "Ticket::Frontend::MenuModule###001-MarkTicketSeen"
-msgstr ""
+msgstr "Ticket::Frontend::MenuModule###001-MarkTicketSeen"
 
 #: ../content/index.rst:93
 msgid "Registers a link in the ticket menu to mark a ticket as seen."
 msgstr ""
+"Egy hivatkozást regisztrál a jegymenüben egy jegy olvasottként való "
+"megjelöléséhez."
 
 #: ../content/index.rst:96
 msgid "About"
