@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MarkTicketSeenUnseen\n"
+"POT-Creation-Date: 2026-10-14 07:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Perl Module: Kernel/Output/HTML/ArticleAction/MarkArticleSeenUnseen.pm
+msgid "Mark article as unseen"
+msgstr "Artikel als ungelesen markieren"
+
+#. Perl Module: Kernel/Output/HTML/ArticleAction/MarkArticleSeenUnseen.pm
+msgid "Mark as unseen"
+msgstr "Als ungelesen markieren"
+
+#. SysConfig
+msgid ""
+"Defines the config parameters available in the preferences view. The default "
+"redirect URL from SysConfig 'MarkTicketSeenRedirectDefaultURL' is used if no "
+"selection is made by the agent."
+msgstr ""
+"Definiert die zur Verfügung stehenden Konfigurationsparameter in der "
+"Einstellungsansicht. Der Standard-Umleitungs-URL der SysConfig-Einstellung "
+"'MarkTicketSeenRedirectDefaultURL' wird verwendet, falls der Agent keine "
+"Auswahl getroffen hat."
+
+#. SysConfig
+msgid ""
+"Defines the config parameters available in the preferences view. The default "
+"redirect URL from SysConfig 'MarkTicketUnseenRedirectDefaultURL' is used if "
+"no selection is made by the agent."
+msgstr ""
+"Definiert die zur Verfügung stehenden Konfigurationsparameter in der "
+"Einstellungsansicht. Der Standard-Umleitungs-URL der SysConfig-Einstellung "
+"'MarkTicketUnseenRedirectDefaultURL' wird verwendet, falls der Agent keine "
+"Auswahl getroffen hat."
+
+#. SysConfig
+msgid "Defines the redirect URL for setting a ticket article to 'seen'."
+msgstr ""
+"Definiert den URL, zu dem umgeleitet wird, nachdem ein Artikel auf 'gelesen' "
+"gesetzt wurde."
+
+#. SysConfig
+msgid "Defines the redirect URL for setting a ticket article to 'unseen'."
+msgstr ""
+"Definiert den URL, zu dem umgeleitet wird, nachdem ein Artikel auf "
+"'ungelesen' gesetzt wurde."
+
+#. SysConfig
+msgid "Dialog to show after marking a ticket as seen"
+msgstr ""
+"Dialog, der angezeigt wird, nachdem ein Ticket als gelesen markiert wurde."
+
+#. SysConfig
+msgid "Dialog to show after marking a ticket as unseen"
+msgstr ""
+"Dialog, der angezeigt wird, nachdem ein Ticket als ungelesen markiert wurde."
+
+#. SysConfig
+msgid "Mark ticket as seen"
+msgstr "Ticket als gelesen markieren"
+
+#. SysConfig
+msgid "Mark ticket as unseen"
+msgstr "Ticket als ungelesen markieren"
+
+#. SysConfig
+msgid "Mark tickets as seen or unseen via bulk action"
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Registers a link in the ticket menu of ticket overviews to mark all articles "
+"of the ticket as seen."
+msgstr ""
+"Registriert einen Link im Ticketmenü von Ticketübersichten, um ein Ticket "
+"als gelesen zu markieren."
+
+#. SysConfig
+msgid ""
+"Registers a link in the ticket menu of ticket overviews to mark all articles "
+"of the ticket as unseen."
+msgstr ""
+"Registriert einen Link im Ticketmenü von Ticketübersichten, um ein Ticket "
+"als ungelesen zu markieren."
+
+#. SysConfig
+msgid "Registers a link in the ticket menu to mark a ticket as seen."
+msgstr ""
+"Registriert einen Link im Ticketmenü, um ein Ticket als gelesen zu markieren."
+
+#. SysConfig
+msgid "Registers a link in the ticket menu to mark a ticket as unseen."
+msgstr ""
+"Registriert einen Link im Ticketmenü, um ein Ticket als ungelesen zu "
+"markieren."
+
+#. SysConfig
+msgid ""
+"This configuration registers a bulk module to mark tickets as seen or unseen "
+"via bulk action."
+msgstr ""

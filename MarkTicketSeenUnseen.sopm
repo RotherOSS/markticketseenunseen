@@ -8,9 +8,11 @@
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
     <Description Lang="en">Mark whole tickets or single articles as unseen or seen.</Description>
     <Description Lang="de">Komplette Tickets oder einzelne Artikel als ungelesen oder gelesen markieren.</Description>
+    <Description Lang="hu">Teljes jegyek vagy önálló bejegyzések megjelölése olvasatlanként vagy olvasottként.</Description>
     <Filelist>
         <File Permission="660" Location="Kernel/Config/Files/XML/OTOBOMarkTicketSeenUnseen.xml"/>
-        <File Permission="660" Location="Kernel/Language/de_OTOBOMarkTicketSeenUnseen.pm"/>
+        <File Permission="660" Location="Kernel/Language/de_MarkTicketSeenUnseen.pm"/>
+        <File Permission="660" Location="Kernel/Language/hu_MarkTicketSeenUnseen.pm" />
         <File Permission="660" Location="Kernel/Modules/AgentTicketMarkSeenUnseen.pm"/>
         <File Permission="660" Location="Kernel/Output/HTML/ArticleAction/MarkArticleSeenUnseen.pm"/>
         <File Permission="660" Location="Kernel/Output/HTML/TicketBulk/MarkTicketSeenUnseen.pm" />
